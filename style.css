@@ -29,8 +29,6 @@
   font-size: 30px;
 }
 
-/*row*/
-
 .justify-content {
   background-color: red;
   height: 50vh;
@@ -93,6 +91,56 @@
 }
 
 .column-reverse > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.no-wrap {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  padding: 10px;
+  display: flex;
+}
+
+.no-wrap > div {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.wrap {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap > div {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.wrap-reverse {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.wrap-reverse > div {
+  width: 100px;
+  height: 100px;
   background-color: #fff;
   margin: 5px;
   font-size: 30px;
