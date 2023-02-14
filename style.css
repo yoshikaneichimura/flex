@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+h3 {
+  padding: 10px;
+}
+
 .flex {
   background-color: red;
   height: 50vh;
@@ -94,6 +98,10 @@
   background-color: #fff;
   margin: 5px;
   font-size: 30px;
+}
+
+.flex-wrap {
+  display: flex;
 }
 
 .no-wrap {
