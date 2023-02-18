@@ -8,13 +8,13 @@ h3 {
   padding: 10px;
 }
 
-.flex {
+.no-flex {
   background-color: red;
   height: 50vh;
   padding: 10px;
 }
 
-.flex > div {
+.no-flex > div {
   background-color: #fff;
   margin: 5px;
   font-size: 30px;
@@ -28,21 +28,6 @@ h3 {
 }
 
 .display-flex > div {
-  background-color: #fff;
-  margin: 5px;
-  font-size: 30px;
-}
-
-.justify-content {
-  background-color: red;
-  height: 50vh;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.justify-content > div {
   background-color: #fff;
   margin: 5px;
   font-size: 30px;
@@ -153,3 +138,63 @@ h3 {
   margin: 5px;
   font-size: 30px;
 }
+
+.justify-content-flex-start {
+  display: flex;
+  justify-content: flex-start;
+  background-color: green;
+}
+
+.justify-content-flex-start > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.justify-content-flex-end {
+  display: flex;
+  justify-content: flex-end;
+  background-color: green;
+}
+
+.justify-content-flex-end > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.justify-content-center {
+  display: flex;
+  justify-content:center;
+  background-color: green;
+}
+.justify-content-center > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.justify-content-space-between {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+}
+
+.justify-content-space-between > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.justify-content-space-around {
+  display: flex;
+  justify-content: space-around;
+  background-color: green;
+}
+
+.justify-content-space-around > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
