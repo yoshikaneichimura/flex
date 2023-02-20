@@ -198,3 +198,67 @@ h3 {
   font-size: 30px;
 }
 
+.align-items-stretch {
+  height: 30vh;
+  display: flex;
+  align-items: stretch;
+  background-color: blue;
+}
+
+.align-items-stretch > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.align-items-flex-start {
+  background-color: blue;
+  height: 30vh;
+  display: flex;
+  align-items: flex-start;
+}
+
+.align-items-flex-start > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.align-items-flex-end {
+  background-color: blue;
+  height: 30vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.align-items-flex-end > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.align-items-center {
+  background-color: blue;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+
+.align-items-center > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.align-items-flex-baseline {
+  background-color: blue;
+  height: 30vh;
+  display: flex;
+  align-items: baseline;
+}
+
+.align-items-flex-baseline > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
