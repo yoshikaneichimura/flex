@@ -262,3 +262,87 @@ h3 {
   margin: 5px;
   font-size: 30px;
 }
+
+.align-content-stretch {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-content: stretch;
+}
+
+.align-content-stretch > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.align-content-flex-start {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-content: flex-start;
+}
+
+.align-content-flex-start > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.align-content-flex-end {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-content: flex-end;
+}
+
+.align-content-flex-end > div {
+ background-color: #fff;
+ margin: 5px;
+ font-size: 30px;
+}
+
+.align-content-center {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-content: center;
+}
+
+.align-content-center > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.align-content-space-between {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-content: space-between;
+}
+
+.align-content-space-between > div{
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.align-content-space-around {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-content: space-around;
+}
+
+.align-content-space-around > div{
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
