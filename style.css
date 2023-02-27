@@ -658,3 +658,20 @@ h3 {
   font-size: 50px;
   align-self: baseline;
 }
+
+.header {
+  background-color: red;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+
+}
+
+.header > div:first-child {
+  margin-right: auto;
+}
