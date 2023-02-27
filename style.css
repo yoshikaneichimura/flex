@@ -519,3 +519,142 @@ h3 {
   font-size: 30px;
   flex-shrink: 3;
 }
+
+/*flax-basis*/
+.flex-basis-row {
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-basis-row > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+  flex-basis : 300px;
+}
+
+.flex-basis-column {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-basis-column > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+  flex-basis: 100px;
+}
+
+/*align-self*/
+.align-self {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*align-self-: flex-start;*/
+.align-self-start {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin: 10px;
+}
+
+.align-self-start > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.align-self-start > div:nth-child(2) {
+  align-self: flex-start;
+}
+
+/*align-self: flex-end;*/
+.align-self-end {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin: 10px;
+}
+
+.align-self-end > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.align-self-end > div:nth-child(2) {
+  align-self: flex-end;
+}
+
+/*align-self: center;*/
+.align-self-center {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin: 10px;
+}
+
+.align-self-center > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.align-self-center > div:nth-child(2) {
+  align-self: center;
+}
+
+/*align-self: stretch;*/
+.align-self-stretch {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin: 10px;
+}
+
+.align-self-stretch > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.align-self-stretch > div:nth-child(2) {
+  align-self: stretch;
+}
+
+/*align-self-baseline*/
+.align-self-baseline {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin: 10px;
+}
+
+.align-self-baseline > div:nth-child(1) {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+  align-self: baseline;
+}
+
+.align-self-baseline > div:nth-child(2) {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 10px;
+  align-self: baseline;
+}
+
+.align-self-baseline > div:nth-child(3) {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 50px;
+  align-self: baseline;
+}
